@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Eggs{
+    public static void main (Strings[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.printf("Enter number of eggs in order: %d", x)
+        int x = sc.nextInt();
+        int totalEggs = int x;
+        double dozenPrice = 3.25;
+        double individualPrice = 0.45;
+        int dozenVal = 12;
+        int dozen = (totalEggs/dozenVal);
+        int individualEgg = (totalEggs % dozenVal);
+        double totalCost = ((dozen * dozenPrice) + (individualEgg * individualPrice) * 0.07)
+        System.out.printf("You ordered %d.\n.", totalEggs, That is 2 dozen at $3.25 per dozen, 3 loose eggs at 45 cents each, and a sales tax amount of $0.55 for a total of $8.40.")
+    }
+}
